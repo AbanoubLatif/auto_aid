@@ -1,4 +1,6 @@
 import 'dart:developer';
+import 'package:auto_aid/main_screens/add_car.dart';
+import 'package:auto_aid/main_screens/ai-chatbot.dart';
 import 'package:auto_aid/main_screens/service_book.dart';
 import 'package:auto_aid/screens/first_screen.dart';
 import 'package:auto_aid/screens/sign_up.dart';
@@ -21,8 +23,10 @@ class AutoAid extends StatelessWidget {
         SignUp.id:(context)=>SignUp(),
         FirstScreen.id:(context)=>FirstScreen(),
         ServiceBook.id:(context)=>ServiceBook(),
+        AiChatBot.id:(context)=>AiChatBot(),
+        AddCar.id:(context)=>AddCar(),
       },
-      initialRoute:'ServiceBookPage',
+      initialRoute:'AddCarPage',
     );
   }
 }
