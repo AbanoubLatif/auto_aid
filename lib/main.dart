@@ -1,3 +1,5 @@
+import 'dart:developer';
+import 'package:auto_aid/main_screens/service_book.dart';
 import 'package:auto_aid/screens/first_screen.dart';
 import 'package:auto_aid/screens/sign_up.dart';
 import 'package:flutter/material.dart';
@@ -18,8 +20,9 @@ class AutoAid extends StatelessWidget {
         SignIn.id:(context)=>SignIn(),
         SignUp.id:(context)=>SignUp(),
         FirstScreen.id:(context)=>FirstScreen(),
+        ServiceBook.id:(context)=>ServiceBook(),
       },
-      initialRoute:'SignIn',
+      initialRoute:'ServiceBookPage',
     );
   }
 }
