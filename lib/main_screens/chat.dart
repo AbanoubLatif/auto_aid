@@ -16,6 +16,7 @@ class Chat extends StatelessWidget {
                   Row(
                     children: [Column(
                       children: [
+                        Container()
 
                       ],
                     )
