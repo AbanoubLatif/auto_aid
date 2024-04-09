@@ -1,3 +1,4 @@
+import 'package:auto_aid/decoration/custom_container.dart';
 import 'package:flutter/material.dart';
 
 class Chat extends StatelessWidget {
@@ -10,7 +11,7 @@ class Chat extends StatelessWidget {
         children: [
           Column(
             children: [
-
+              CustomContainer(column:Column(), height: 200)
             ],
           )
         ],
