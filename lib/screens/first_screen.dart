@@ -16,12 +16,12 @@ static String id='FirstScreen';
           ),
           Padding(
             padding: const EdgeInsets.only(left: 120,right: 120),
-            child: CustomButton(text:'Sign Up',color: KeySecondaryColor,textcolor:KeyPrimaryColor,),
+            child: CustomButton(height:30,text:'Sign Up',color: KeySecondaryColor,textcolor:KeyPrimaryColor,),
           ),
           SizedBox(height:28),
           Padding(
             padding: const EdgeInsets.only(left: 120,right: 120),
-            child: CustomButton(text:'Login',color:KeySecondaryColor,textcolor: KeyPrimaryColor,),
+            child: CustomButton(height:30,text:'Login',color:KeySecondaryColor,textcolor: KeyPrimaryColor,),
           ),
         ],
       ),

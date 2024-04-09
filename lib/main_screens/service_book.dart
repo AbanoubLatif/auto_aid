@@ -32,7 +32,7 @@ class ServiceBook extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 30,left: 120,right: 120),
-                    child: CustomButton(text:'Confirm', color:KeyPrimaryColor, textcolor:Colors.white,
+                    child: CustomButton(height:30,text:'Confirm', color:KeyPrimaryColor, textcolor:Colors.white,
                     ),
                   )
                 ],

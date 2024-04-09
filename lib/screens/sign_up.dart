@@ -39,7 +39,7 @@ class SignUp extends StatelessWidget {
           SizedBox(height: 25),
           Padding(
             padding: const EdgeInsets.only(left: 150, right: 150, bottom: 150),
-            child: CustomButton(text: 'Sign Up',color:KeyPrimaryColor,textcolor: Colors.white,),
+            child: CustomButton(height:30,text: 'Sign Up',color:KeyPrimaryColor,textcolor: Colors.white,),
           ),
         ],
       ),
